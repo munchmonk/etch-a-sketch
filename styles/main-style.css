@@ -1,14 +1,12 @@
-html,
-body {
-	margin: 0;
-	padding: 0;
+button {
+	display: inline-block;
+	margin: 0 10px 0 10px;
+	font: bold 30px "Verdana";
 }
 
-button {
-	display: block;
-	text-align: center;
+.button-wrapper {
 	margin: 40px auto 20px auto;
-	font: bold 30px "Verdana";
+	text-align: center;
 }
 
 .outer {
@@ -22,6 +20,7 @@ button {
 	display: inline-block;
 	width: 30px;
 	height: 30px;
+	background-color: #FFFFFF;
 }
 
 .yellow {

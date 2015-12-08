@@ -7,7 +7,10 @@
 		<link type="text/css" rel="stylesheet" href="styles/main-style.css" />
 	</head>
 	<body>
-		<button type="button" onClick="resetGrid()">Reset grid and change size</button>
+		<div class="button-wrapper">
+			<button type="button" onClick="resetGrid(false)">Clear</button>
+			<button type="button" onClick="resetGrid(true)">Clear and change size</button>
+		</div>
 		<script type="text/javascript" src="scripts/my_script.js"></script>
 	</body>
 </html>
